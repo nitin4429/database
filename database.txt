@@ -1,0 +1,123 @@
+Q.1 - A database is an organized collection of data, so that it can be easily accessed and managed.
+
+The main purpose of the database is to operate a large amount of information by storing, retrieving, and managing data.
+There are many dynamic websites on the World Wide Web nowadays which are handled through databases.
+There are many databases available like MySQL, Sybase, Oracle, MongoDB, Informix, PostgreSQL, SQL Server, etc.
+
+
+Q2 A file system is a process of managing how and where data on a storage disk, which is also referred to as file management
+ or FS. It is a logical disk component that compresses files separated into groups, which is known as directories. 
+ It is abstract to a human user and related to a computer; hence, it manages a disk's internal operations. Files and 
+ additional directories can be in the directories. 
+  challanges of file based storage system are :
+  1) security concern
+  2) Redundancy
+  3) Dependence on Data
+
+Q3 Database Management System is a software or technology used to manage data from a database. Some popular databases
+ are MySQL, Oracle, MongoDB, etc. DBMS provides many operations e.g. creating a database, Storing in the database,
+  updating an existing database, delete from the database. DBMS is a system that enables you to store, modify and
+   retrieve data in an organized way. It also provides security to the database.  
+
+   Better Data Transferring: Database management creates a place where users have an advantage of more and better-managed data.
+    Thus making it possible for end-users to have a quick look and to respond fast to any changes made in their environment.
+
+  Better Data Security: The more accessible and usable the database, the more it is prone to security issues. As the number
+ of users increases, the data transferring or data sharing rate also increases thus increasing the risk of data security.
+  It is widely used in the corporate world where companies invest large amounts of money, time, and effort to ensure data 
+  is secure and used properly. A Database Management System (DBMS) provides a better platform for data privacy and security
+   policies thus, helping companies to improve Data Security.
+
+  Better data integration: Due to the Database Management System we have access to well-managed and synchronized forms
+ of data thus it makes data handling very easy and gives an integrated view of how a particular organization is working
+  and also helps to keep track of how one segment of the company affects another segment.
+
+Q4 challanges
+Data abstraction: The major purpose of a database system is to provide users with an abstract view of the data.
+ Since many complex algorithms are used by the developers to increase the efficiency of databases that are being 
+ hidden by the users through various data abstraction levels to allow users to easily interact with the system.
+
+Reduction in data Redundancy: When working with a structured database, DBMS provides the feature to prevent the
+ input of duplicate items in the database. for e.g. – If there are two same students in different rows, then one
+  of the duplicate data will be deleted.
+
+Application development: A DBMS provides a foundation for developing applications that require access to large
+ amounts of data, reducing development time and costs.
+
+Data sharing: A DBMS provides a platform for sharing data across multiple applications and users, which can
+ increase productivity and collaboration.
+
+Data organization: A DBMS provides a systematic approach to organizing data in a structured way, which makes
+ it easier to retrieve and manage data efficiently.
+
+The atomicity of data can be maintained: That means, if some operation is 
+performed on one particular table of the database, then the change must be reflected  for the entire database. 
+ The DBMS allows concurrent access to multiple users by using the synchronization technique.
+
+Data consistency and accuracy: DBMS ensures that data is consistent and accurate by enforcing data integrity 
+constraints and preventing data duplication. This helps to eliminate data discrepancies and errors that can occur
+ when data is stored and managed manually.
+
+Improved data security: DBMS provides a high level of data security by offering user authentication and
+ authorization, data encryption, and access control mechanisms.  
+
+Q.5 classification of DBMS
+
+Relational DBMS
+A relational database management system (RDBMS) is a type of database management system (DBMS) that stores data in the form 
+of related tables. The data is organized into rows, columns, and tables, and it is indexed to make it easier to find relevant
+ information. 
+
+Object-oriented DBMS
+Object-oriented DBMS (OODBMS) is a type of database management system that is built around the concept of objects.
+An object-oriented database stores data in the form of objects, which are pieces of information that contain data as
+well as associated methods or procedures. 
+
+Hierarchical DBMS
+A hierarchical database management system (HDBMS) is a type of database management system (DBMS) based on the
+hierarchical model, which is a data model that organizes data elements in a tree-like structure.
+
+Network database – Mainly used on a large digital computers. If there are more connections, then this database
+ is efficient. They are similar to hierarchical database, they look like a cobweb or interconnected network of records
+ Examples are CA-IDMS(COMPUTER associates), IMAGE(HP).
+
+
+Q6 Data model
+A data model is a representation of structured data, usually in the form of a diagram or computer language.
+ It is used to represent and organize data, as well as to facilitate communication between different stakeholders.
+
+types of data modelling
+Conceptual Data Model: This Data Model defines WHAT the system contains. This model is typically created by Business
+ stakeholders and Data Architects. The purpose is to organize, scope and define business concepts and rules.
+
+Logical Data Model: Defines HOW the system should be implemented regardless of the DBMS. This model is typically 
+created by Data Architects and Business Analysts. The purpose is to developed technical map of rules and data structures.
+
+Physical Data Model: This Data Model describes HOW the system will be implemented using a specific DBMS system.
+ This model is typically created by DBA and developers. The purpose is actual implementation of the database.
+
+Q7 Three schema architecture
+
+ 1) Internal schema
+ The internal level has an internal schema which describes the physical storage structure of the database.
+The internal schema is also known as a physical schema.
+It uses the physical data model. It is used to define that how the data will be stored in a block.
+
+2) Conceptual schema
+The conceptual schema describes the design of a database at the conceptual level. Conceptual level is also known as 
+logical level.
+The conceptual schema describes the structure of the whole database.
+The conceptual level describes what data are to be stored in the database and also describes what relationship exists
+ among those data.
+
+3) External schema
+At the external level, a database contains several schemas that sometimes called as subschema. The subschema is used
+ to describe the different view of the database.
+An external schema is also known as view schema.
+Each view schema describes the database part that a particular user group is interested and hides the remaining database
+ from that user group.
+
+Advantages
+1) data independance
+2) logical data independance
+3) physical data independance 
